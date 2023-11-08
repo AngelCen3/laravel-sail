@@ -24,6 +24,8 @@ php artisan tinker
 DB::select('SELECT 1');
 > DB::connection()->getPdo()
 
+git checkout test_1
+
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
