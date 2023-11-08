@@ -1,0 +1,39 @@
+curl -s https://laravel.build/example-app | bash //install a new laravel proyect
+
+cd example-app & ./vendor/bin/sail up
+
+ #git push -u origin main
+Tenia un problema con las llaves ssh asi que copia lo de .ssh a una carpeta nueva donde esta docker 
+Despues de hacer esto, haces lo siquiente 
+    Para solucionar el problema, puedes ajustar los permisos de tu clave SSH con el siguiente comando:
+        chmod 600 /home/beto/.ssh/id_rsa
+
+git branch 
+ // para sinchonizar ya que no me dejaba enlazar con a branch tha i created already
+ git fetch
+
+
+ //To copy from current branch we are  working from (main) in this case 
+git merge main
+
+sudo apt install nodejs 
+
+sail shell
+sail@28a40751a208:/var/www/html$ 
+php artisan tinker
+DB::select('SELECT 1');
+> DB::connection()->getPdo()
+
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=sail
+DB_PASSWORD=
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306 
+DB_DATABASE=forum
+DB_USERNAME=root
+DB_PASSWORD=
